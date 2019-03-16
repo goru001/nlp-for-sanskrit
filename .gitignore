@@ -1,0 +1,10 @@
+classification-slokas/.ipynb_checkpoints/*
+classification-slokas/models/*
+classification-slokas/tmp/*
+datasets-preparation/.ipynb_checkpoints/*
+language-model/.ipynb_checkpoints/*
+language-model/models/*
+language-model/SanskritDataset/*
+language-model/SanskritWikipediaArticles/*
+language-model/tmp/*
+tokenizer/.ipynb_checkpoints/*
