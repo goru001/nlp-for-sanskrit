@@ -8,3 +8,4 @@ language-model/SanskritDataset/*
 language-model/SanskritWikipediaArticles/*
 language-model/tmp/*
 tokenizer/.ipynb_checkpoints/*
+language-model/SanskritWikipediaArticles.zip
