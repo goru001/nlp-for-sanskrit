@@ -9,3 +9,5 @@ language-model/SanskritWikipediaArticles/*
 language-model/tmp/*
 tokenizer/.ipynb_checkpoints/*
 language-model/SanskritWikipediaArticles.zip
+.idea/workspace.xml
+language-model/__pycache__/
