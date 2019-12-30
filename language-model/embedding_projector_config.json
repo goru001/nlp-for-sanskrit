@@ -1,7 +1,7 @@
 {
   "embeddings": [
     {
-      "tensorName": "Sanskrit Embedding Vectors",
+      "tensorName": "Sanskrit ULMFiT Embedding Vectors",
       "tensorShape": [
         20000,
         400
