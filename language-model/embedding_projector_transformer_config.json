@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "Sanskrit Transformer Embedding Vectors",
+      "tensorShape": [
+        20000,
+        410
+      ],
+      "tensorPath": "https://media.githubusercontent.com/media/goru001/nlp-for-sanskrit/master/language-model/embeddings_transformer.tsv",
+      "metadataPath": "https://media.githubusercontent.com/media/goru001/nlp-for-sanskrit/master/language-model/embeddings_transformer_metadata.tsv"
+    }
+  ]
+}

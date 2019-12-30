@@ -1,25 +1,44 @@
 # NLP for Sanskrit
 
-This repository contains State of the Art Tokenizer, Language model and Classifier for Sanskrit, which is an ancient Indian language.
+This repository contains State of the Art Language models and Classifier for
+ Sanskrit, which is an ancient Indian language.
+
+The models trained here have been used in [Natural Language Toolkit for Indic Languages
+ (iNLTK)](https://github.com/goru001/inltk) 
 
 ## Dataset
 
-* Download [Sanskrit Wikipedia Articles Dataset](https://drive.google.com/open?id=1nfV1EDHgPvrsrA1Jubt-C4wBRRFlQzsJ) (22,273 articles) which I scraped, cleaned and
-used to train the language model
+#### Created as part of this project
+1. [Sanskrit Wikipedia Articles](https://www.kaggle.com/disisbig/sanskrit-wikipedia-articles)
 
-* Download [Sanskrit Shlokas Dataset](https://drive.google.com/open?id=1EHTuDUOx-AgIcHHwBfXJMyhpdgr-KcWd) which I scraped and used to train 
-the classifier
+2. [Sanskrit Shlokas Dataset](https://www.kaggle.com/disisbig/sanskrit-shlokas-dataset)
 
 ## Results
 
-#### Language Model
+#### Language Model Perplexity
 
-* Perplexity of language model: ~6 (on 30% validation set)
+| Architecture/Dataset | Sanskrit Wikipedia Articles |
+|:--------:|:----:|
+|   ULMFiT  |  ~6  |
+|  TransformerXL |  ~3  |
 
-#### Classifier
+#### Classification Metrics
 
-* Accuracy of classification model: ~70%
-* Kappa score of classification model: ~56
+##### ULMFiT
+
+| Dataset | Accuracy | Kappa Score |
+|:--------:|:----:|:----:|
+| Sanskrit Shlokas Dataset |  84.3  |  76.1  |
+
+#### Visualizations
+ 
+##### Embedding Space
+
+| Architecture | Visualization |
+|:--------:|:----:|
+| ULMFiT | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-sanskrit/master/language-model/embedding_projector_config.json) |
+| TransformerXL | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-sanskrit/master/language-model/embedding_projector_transformer_config.json)  |
+
 
 ## Pretrained Language Model
 
